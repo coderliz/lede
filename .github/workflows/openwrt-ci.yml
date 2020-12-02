@@ -55,8 +55,6 @@ jobs:
 
       - name: Generate configuration file
         run: |
-          - name: Generate configuration file
-        run: |
           rm -f ./.config*
           touch ./.config
           #
